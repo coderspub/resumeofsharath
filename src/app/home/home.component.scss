@@ -1,0 +1,18 @@
+    
+$font-color : #ffffff;
+$bgcolor1: #111111;
+$bgcolor2:#262626;
+
+.jumbotron {
+    background-image:linear-gradient(to right,$bgcolor1,$bgcolor2);
+    padding: 6em 0px 2em 0px;
+
+    h1,
+    p {
+        color: $font-color;
+
+    }
+}
+.card-text{
+    text-align: justify;
+}
